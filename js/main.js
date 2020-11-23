@@ -1,5 +1,5 @@
-var hamburger = $(".header-right > a");
-hamburger.click(
+var openMenu = $(".header-right > a");
+openMenu.click(
     function() {
         $(".hamburger-menu").addClass("active");
     }
